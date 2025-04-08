@@ -37,77 +37,86 @@
   }
 }
 
-/* General styles */
+/* Updated styles for Octofit app */
 body {
-  background-color: #f0f8ff; /* Light blue background */
+  background-color: #e6f7ff; /* Light cyan background */
   color: #333; /* Dark text color */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Navigation menu */
 .navbar {
-  background-color: #007bff; /* Blue background */
+  background-color: #004d99; /* Dark blue background */
   color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
+
 .navbar a {
   color: white;
   text-decoration: none;
+  margin-right: 15px;
 }
+
 .navbar a:hover {
-  color: #ffdd57; /* Yellow on hover */
+  color: #ffcc00; /* Gold on hover */
 }
 
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
-  color: #007bff; /* Blue headings */
+  color: #004d99; /* Dark blue headings */
 }
 
-/* Buttons */
 button {
-  background-color: #007bff; /* Blue button */
+  background-color: #004d99; /* Dark blue button */
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
+
 button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #003366; /* Darker blue on hover */
 }
 
-/* Links */
 a {
-  color: #007bff;
+  color: #004d99;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
 
-/* Tables */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
 }
+
 table th, table td {
   border: 1px solid #ddd;
   padding: 8px;
 }
+
 table th {
-  background-color: #007bff;
+  background-color: #004d99;
   color: white;
 }
 
-/* Logo */
 .logo {
   height: 50px;
   margin-right: 10px;
 }
 
-/* Centered container */
 .container {
   text-align: center;
+}
+
+/* Add logo to navbar */
+.navbar .logo {
+  height: 40px;
+  margin-right: 15px;
 }
